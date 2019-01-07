@@ -1,0 +1,82 @@
+body {
+	max-height: 100%;
+    background-color: black;
+    overflow: auto;
+}
+
+.jumbotron {
+    background-color: #fff;
+    background-image: url('https://i.ytimg.com/vi/FV-W9PZUfEk/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    border-top: 1px solid white;
+}
+
+
+.jumbotron-heading {
+    font-weight: 400;
+    font-size: 4.5rem;
+    margin: 1.5rem;
+}
+
+.jumbotron .container {
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0.5rem;
+    border: 1px solid white;
+    margin-top: 5rem;
+}
+
+.jumbotron p {
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1100px) {
+    body {
+        overflow: auto;
+    }
+
+    .jumbotron .container {
+        margin-top: 2.5rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+
+    .jumbotron {
+        margin: 0;
+    }
+
+    .jumbotron-heading {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .jumbotron {
+        margin: 0;
+    }
+
+    .jumbotron .container {
+        margin-top: 2.5rem;
+    }
+
+    .jumbotron-heading {
+        font-size: 1.6rem;
+    }
+
+    .jumbotron p {
+        font-size: 1.3rem;
+    }
+}

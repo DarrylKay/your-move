@@ -1,0 +1,228 @@
+:root {
+    --jumbotron-padding-y: 3rem;
+
+}
+
+.jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+    background-image: url('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: calc(var(--jumbotron-padding-y) * 2);
+        padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 2rem;
+}
+
+.jumbotron p {
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.card>img {
+    margin-bottom: .75rem;
+    max-width: 100%;
+}
+
+.modal p {
+    padding-top: 1rem;
+}
+
+.lead {
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding: 0;
+}
+
+nav .pagination {
+    width: 100%;
+    justify-content: center;
+    padding-top: 1.3rem;
+
+}
+
+#insert {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://ak9.picdn.net/shutterstock/videos/20219089/thumb/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    padding: 2rem 0;
+    margin: 1.5rem 0;
+}
+
+#insert img {
+    width: 80%;
+    height: 100%;
+    padding: none;
+    margin: none;
+}
+
+#insert p {
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+i {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#sell-form label {
+    color: white;
+    font-size: 1.4rem;
+}
+
+#sell-insert {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/A2KqU29/videoblocks-4k-happy-senior-couple-in-meeting-with-estate-agent-signing-contract-taking-k_s8giskuucz_thumbnail-full01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 50vh;
+    padding: 2rem 0;
+    margin: 1.5rem 0;
+}
+
+#sell-insert img {
+    width: 80%;
+    height: 100%;
+    padding: none;
+    margin: none;
+}
+
+#sell-insert p {
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+#buy-insert {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/ac/54/f6/ac54f63d7e68aa43763f8b97017559c5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 45vh;
+    padding: 2rem 0;
+    margin: 1.5rem 0;
+}
+
+#buy-insert img {
+    width: 80%;
+    height: 100%;
+    padding: none;
+    margin: none;
+}
+
+#buy-insert p {
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+#team h1 {
+    padding: 1rem 0;
+}
+
+#team h3 {
+    padding: 1rem 0;
+}
+
+.title {
+    color: #ECE1F7;
+}
+
+.headshot {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.bio {
+    color: white;
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+#mobile-footer {
+    display: none;
+    width: 100%;
+}
+
+@media (max-width: 575.98px) {
+    #insert i {
+        padding: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    #insert p {
+        font-size: 1.5rem;
+    }
+
+    #sell-insert i {
+        padding: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    #sell-insert p {
+        font-size: 1.5rem;
+    }
+
+    #buy-insert i {
+        padding: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    #buy-insert p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+
+
+    #main-footer {
+        display: none;
+    }
+
+    #mobile-footer {
+        display: block;
+    }
+}
